@@ -1,0 +1,14 @@
+<section id="depoimentos">
+  <div class="container-depoimento">
+    <h2>Alguns depoimentos de nossos clientes</h2>
+    <br>
+    <div *ngFor="let testimonial of testimonials; let i = index" class="testimonial-slide" [ngClass]="{'active': i === currentIndex}">
+      <p>"{{ testimonial.text }}"</p>
+      <p class="author">-{{ testimonial.author }}</p>
+    </div>
+    <div class="bottons">
+      <button (click)="prevSlide()" class="button-esq"><span>Anterior</span></button>
+      <button (click)="nextSlide()" class="button"><span>Próximo</span></button>
+    </div>
+  </div>
+</section>

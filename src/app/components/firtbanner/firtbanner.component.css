@@ -1,0 +1,31 @@
+/* Estilos do banner */
+/* Colocar imagem com tom mais escuro */
+#banner {
+    background-image: url('https://midiatix.com.br/wp-content/uploads/2020/04/shutterstock_1444236020.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    font-size: 36px;
+}
+
+#banner p {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}

@@ -1,0 +1,118 @@
+.container-depoimento{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#depoimentos {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.testimonial-slide {
+  display: none;
+  text-align: center;
+}
+
+.testimonial-slide.active {
+  display: block;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottons {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 1.25rem;
+  width: 11.25rem;
+  height: 4rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.3125rem;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1.25rem;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 1.5625rem;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.button-esq {
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 1.25rem;
+  width: 11.25rem;
+  height: 4rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0.3125rem;
+}
+
+.button-esq span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-esq span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -1.25rem;
+  transition: 0.5s;
+}
+
+.button-esq:hover span {
+  padding-left: 1.5625rem;
+}
+
+.button-esq:hover span:after {
+  opacity: 1;
+  left: 0;
+}
