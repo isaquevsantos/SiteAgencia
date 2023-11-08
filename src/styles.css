@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     margin: 0;
@@ -13,11 +14,15 @@
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Uni Neue-Trial';
+    font-weight: 900;
+    font-style: normal;
 }
 
 h2 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Uni Neue-Trial';
+    font-weight: 900;
+    font-style: normal;
 
 }
 
