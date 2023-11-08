@@ -37,7 +37,7 @@ button {
 .button {
   display: inline-block;
   border-radius: 0.25rem;
-  background-color: #f4511e;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -79,7 +79,7 @@ button {
 .button-esq {
   display: inline-block;
   border-radius: 0.25rem;
-  background-color: #f4511e;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   border: none;
   color: #FFFFFF;
   text-align: center;
