@@ -9,6 +9,7 @@ import { ImportaciamktComponent } from './components/importaciamkt/importaciamkt
 import { DepoimentosComponent } from './components/depoimentos/depoimentos.component';
 import { SobrenosComponent } from './components/sobrenos/sobrenos.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     ImportaciamktComponent,
     DepoimentosComponent,
     SobrenosComponent,
-    FormularioComponent
+    FormularioComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
