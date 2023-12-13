@@ -1,0 +1,40 @@
+#servicos{
+    background-color: #0063ff;
+    padding: 40px 0;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.servicos__titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.servico__grupo {
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.servico__card {
+    text-align: center;
+    max-width: 30%;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    max-height: 100px;
+
+}
+/* strong {
+    color: #fe1b58;
+} */

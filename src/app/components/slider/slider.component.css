@@ -9,13 +9,13 @@
 
 .logos {
 overflow: hidden;
-padding: 60px 0;
-background: white;
+padding: 40px;
+background: #f0f0f0;
 white-space: nowrap;
 position: relative;
 }
 
-.logos h1 {
+.logos h2 {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
