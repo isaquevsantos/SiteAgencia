@@ -10,6 +10,8 @@ import { SobrenosComponent } from './components/sobrenos/sobrenos.component';
 import { FormularioComponent } from './components/bak/formulario/formulario.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { ServicosComponent } from './components/servicos/servicos.component';
+import { ContatoComponent } from './components/contato/contato.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ServicosComponent } from './components/servicos/servicos.component';
     SobrenosComponent,
     FormularioComponent,
     SliderComponent,
-    ServicosComponent
+    ServicosComponent,
+    ContatoComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
